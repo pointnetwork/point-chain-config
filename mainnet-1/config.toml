@@ -15,7 +15,7 @@
 proxy_app = "tcp://127.0.0.1:26658"
 
 # A custom human readable name for this node
-moniker = "point-mainnet-1"
+moniker = "point-mainnet"
 
 # If this node is many blocks behind the tip of the chain, FastSync
 # allows them to catchup quickly by downloading blocks in parallel
@@ -209,10 +209,10 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = "891005aed7d05b8d4d97873eeff5d87851220606@rpc-mainnet-1.point.space"
+seeds = ""
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "891005aed7d05b8d4d97873eeff5d87851220606@rpc-mainnet-1.point.space"
+persistent_peers = ""
 
 # UPNP port forwarding
 upnp = false
